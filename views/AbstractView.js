@@ -1,6 +1,5 @@
 export default class {
     constructor() {
-
     }
 
     // This method vill update your current page title

@@ -1,4 +1,8 @@
-// 
+// We will use this in stead of the console.log("View Home") line "ADJUST the explanation"
+import Home from "./views/Home.js";
+import Devpage from "./views/Devpage.js";
+import Signin from "./views/Signin.js";
+//  EXPLAIN
 const navigateTo = url => {
     history.pushState(null, null, url);
     router();
@@ -6,9 +10,12 @@ const navigateTo = url => {
 
 const router = async () => {
     const routes = [
-        { path: "/", view: () => console.log("View Home") },
-        { path: "/devpage", view: () => console.log("View Dev Page") },
-        { path: "/signin", view: () => console.log("View Sign In") }
+        { path: "/", view: Home },
+        { path: "/devpage", view: Devpage },
+        { path: "/signin", view: Signin }
+        // { path: "/", view: () => console.log("View Home") },
+        // { path: "/devpage", view: () => console.log("View Dev Page") },
+        // { path: "/signin", view: () => console.log("View Sign In") }
     ];
 
     // test each for potetian match
@@ -30,7 +37,11 @@ const router = async () => {
         };
     }
 
-    console.log(match.route.view());
+    const view = new match.route.view();
+
+    document.querySelector("#app").innerHTML = await view.getHtml();
+
+    // console.log(match.route.view());
 };
 
 // The function below shows how  

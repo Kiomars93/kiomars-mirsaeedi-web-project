@@ -3,15 +3,15 @@ import AbstractView from "./AbstractView.js";
 export default class extends AbstractView {
     constructor() {
         super();
-        this.setTitle("Home");
+        this.setTitle("Sign In");
     }
 
 
     async getHtml() {
         return `
-        <h1> Welcome back, Kio</h1>
+        <h1> You can log in to your account here! </h1>
         <p>
-            <a href="/devpage" data-link> View My Dev Page</a>.
+            <a href="/signin" data-link> View My Sign in Page</a>.
         </p>
         `
     }
