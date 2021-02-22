@@ -14,4 +14,4 @@ app.get("/*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "index.html"));
 });
 
-app.listen(process.env.PORT || kiomars93.github.io / kiomarsmirsaeedi.github.io, () => console.log("Server running..."));
+app.listen(process.env.PORT || 5500, () => console.log("Server running..."));
