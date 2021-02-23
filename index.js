@@ -13,9 +13,6 @@ const router = async () => {
         { path: "/", view: Home },
         { path: "/devpage", view: Devpage },
         { path: "/contact", view: Contact }
-        // { path: "/", view: () => console.log("View Home") },
-        // { path: "/devpage", view: () => console.log("View Dev Page") },
-        // { path: "/signin", view: () => console.log("View Sign In") }
     ];
 
     // test each for potetian match
