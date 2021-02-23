@@ -1,7 +1,7 @@
 // We will use this in stead of the console.log("View Home") line "ADJUST the explanation"
 import Home from "./views/Home.js";
 import Devpage from "./views/Devpage.js";
-import Signin from "./views/Contact.js";
+import Contact from "./views/Contact.js";
 //  EXPLAIN
 const navigateTo = url => {
     history.pushState(null, null, url);
@@ -12,7 +12,7 @@ const router = async () => {
     const routes = [
         { path: "/", view: Home },
         { path: "/devpage", view: Devpage },
-        { path: "/contact", view: Signin }
+        { path: "/contact", view: Contact }
         // { path: "/", view: () => console.log("View Home") },
         // { path: "/devpage", view: () => console.log("View Dev Page") },
         // { path: "/signin", view: () => console.log("View Sign In") }
