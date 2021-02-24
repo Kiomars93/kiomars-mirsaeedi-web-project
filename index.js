@@ -2,20 +2,23 @@
 import Home from "./views/Home.js";
 import Devpage from "./views/Devpage.js";
 import Contact from "./views/Contact.js";
+import Signin from "./views/Signin.js";
 //  EXPLAIN
 const navigateTo = url => {
     history.pushState(null, null, url);
     router();
 }
 
+
+
 const router = async () => {
     const routes = [
         { path: "/", view: Home },
         { path: "/devpage", view: Devpage },
-        { path: "/contact", view: Contact }
+        { path: "/contact", view: Contact },
+        { path: "/signin", view: Signin }
     ];
-
-    // test each for potetian match
+    // test each for potential match
     const potentialMatches = routes.map(route => {
         return {
             route: route,
@@ -37,8 +40,6 @@ const router = async () => {
     const view = new match.route.view();
 
     document.querySelector("#app").innerHTML = await view.getHtml();
-
-    // console.log(match.route.view());
 };
 
 // The function below shows how  

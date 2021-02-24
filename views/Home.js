@@ -6,7 +6,6 @@ export default class extends AbstractView {
         this.setTitle("Home");
     }
 
-
     async getHtml() {
         return `
         <h1> Welcome back, Kio</h1>
