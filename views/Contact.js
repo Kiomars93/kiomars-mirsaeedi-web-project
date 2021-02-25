@@ -25,6 +25,7 @@ export default class extends AbstractView {
                                     <img src="${user.profileURL}" width=100 height=100>
                                     <h2>${user.firstName} ${user.lastName}</h2>
                                     <div class="email"><a href="email:${user.email}">${user.email}</a></div>
+                                    <p>${user.phone}</p>
                                 </div>`;
                 html += htmlSegment;
             });

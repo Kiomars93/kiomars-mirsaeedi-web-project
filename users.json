@@ -5,7 +5,8 @@
         "lastName": "Mirsaeedi",
         "gender": "Male",
         "profileURL": "/img/Kio.jpg",
-        "email": "Kio93TilInfinity@hotmail.com"
+        "email": "Kio93TilInfinity@hotmail.com",
+        "phone": "073-XXXXXX"
     },
     {
         "username": "Orhan",
@@ -13,7 +14,8 @@
         "lastName": "Albayati",
         "gender": "Male",
         "profileURL": "/img/Orhan.png",
-        "email": "OrhanAlbayati@gmail.com"
+        "email": "OrhanAlbayati@gmail.com",
+        "phone": "073-XXXXXX"
     },
     {
         "username": "Mazdak",
@@ -21,6 +23,7 @@
         "lastName": "Ebrahimzadeh",
         "gender": "Male",
         "profileURL": "/img/Mazdak.png",
-        "email": "MazdakEbrahimzadeh@hotmail.com"
+        "email": "MazdakEbrahimzadeh@hotmail.com",
+        "phone": "073-XXXXXX"
     }
 ]
