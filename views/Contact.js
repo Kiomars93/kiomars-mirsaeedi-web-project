@@ -25,7 +25,7 @@ export default class extends AbstractView {
                                     <img src="${user.profileURL}" width=100 height=100>
                                     <h2>${user.firstName} ${user.lastName}</h2>
                                     <div class="email"><a href="email:${user.email}">${user.email}</a></div>
-                                    <p>${user.phone}</p>
+                                    <p ${user.phone}>${user.phone}</p>
                                 </div>`;
                 html += htmlSegment;
             });
@@ -38,6 +38,19 @@ export default class extends AbstractView {
     }
 
     async getHtml() {
-        return `<div class="container"></div>`
+        return `
+        <div class="text">
+        <div class="container"></div>
+        </div>
+        <style>
+         .text {
+            color: aqua;
+             
+             text-align: center;
+            }
+            body{
+                color: white;
+            }
+        </style>`
     }
 }
