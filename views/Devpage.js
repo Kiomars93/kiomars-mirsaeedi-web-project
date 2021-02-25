@@ -10,7 +10,11 @@ export default class extends AbstractView {
         return `
         <div class="text">
         <h1> This is my developer page </h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusantium inventore in error tempore voluptatum fuga deleniti, delectus consequuntur</p>
+        <div class="pic">
+        <img src="/Img/Kio.jpg" width=100 height=100>
+        </div>
+        <p>My name is Kiomars Mirsaeedi, I am 27 years old, I live in gothenburg city.
+        I love to code, training, dance and music aside from programming.</p>
             <a href="/contact" data-link> View My Contacts</a>.
         </div>
         <style>
