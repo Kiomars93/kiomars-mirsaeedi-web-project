@@ -1,7 +1,6 @@
 // Including dependencies
 const express = require("express");
 const path = require("path");
-const credentials = require('./apiCredentials.json');
 
 const app = express();
 

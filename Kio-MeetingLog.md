@@ -6,3 +6,4 @@ through one index.html. Finished the routing part.
 - 23/2: Focused mostly on fetch an extern web API and a little on responsiveness. I choose to fetch a weather API.
 - 24/2: Finished my web API. Unfortunatly I could not load it through the same html document so I had to creat an API folder that includes the API.Html and API.JS file for fetching my weather API. I also added an okta login account which I commented out. The backend part works fine but I have problems with the frontend.
 - 25/2: Focus on responsivness and fillin my dev page and home tab's content.
+- 26/2: Finished the responsivness and finished my project.
