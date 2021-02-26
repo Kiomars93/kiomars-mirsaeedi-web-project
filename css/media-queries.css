@@ -1,334 +1,6 @@
-/*  24 x 24 inch */
+/* Screen resolution */
 
-@media (max-height: 3600px) and (max-width: 3600px){
-    h1{
-        font-size: 200px;
-        text-align: center;
-    }
-    .user{
-        text-align: center;
-    }
-    h2{
-        font-size: 150px;
-        text-align: center;
-    }
-    .email{
-        text-align: center;
-    }
-    p{
-        font-size: 140px;
-        text-align: center;
-    }
-    a{
-        font-size: 120px;  
-    }
-    .nav__link{
-        font-size: 55px;
-    }
-
-    .pic img{
-        margin-left: auto;
-        margin-right: auto;
-        width: 600px;
-        height: 600px;
-    }
-
-    img{
-        width: 800px;
-        height: 950px;
-    }
-}
-
-/*  20 x 24 inch */
-
-@media (max-width: 3600px) and (max-height: 3000px){
-    h1{
-        font-size: 150px;
-        text-align: center;
-    }
-    .user{
-        text-align: center;
-    }
-    h2{
-        font-size: 130px;
-        text-align: center;
-    }
-    .email{
-        text-align: center;
-    }
-    p{
-        font-size: 110px;
-        text-align: center;
-    }
-    a{
-        font-size: 100px;  
-    }
-    .nav__link{
-        font-size: 55px;
-    }
-
-    .pic img{
-        margin-left: auto;
-        margin-right: auto;
-        width: 600px;
-        height: 600px;
-    }
-
-    img{
-        width: 800px;
-        height: 950px;
-    }
-}
-
-/*  19 x 13 inch */
-
-@media (max-width: 1950px) and (max-height: 2850px){
-    h1{
-        font-size: 130px;
-        text-align: center;
-    }
-    .user{
-        text-align: center;
-    }
-    h2{
-        font-size: 130px;
-        text-align: center;
-    }
-    .email{
-        text-align: center;
-    }
-    p{
-        font-size: 90px;
-        text-align: center;
-    }
-    a{
-        font-size: 85px;  
-    }
-    .nav__link{
-        font-size: 55px;
-    }
-
-    .pic img{
-        margin-left: auto;
-        margin-right: auto;
-        width: 600px;
-        height: 600px;
-    }
-
-    img{
-        width: 600px;
-        height: 750px;
-    }
-}
-
-/*  18 x 24 inch */
-
-@media (max-width: 3600px) and (max-height: 2700px){
-    h1{
-        font-size: 200px;
-        text-align: center;
-    }
-    .user{
-        text-align: center;
-    }
-    h2{
-        font-size: 130px;
-        text-align: center;
-    }
-    .email{
-        text-align: center;
-    }
-    p{
-        font-size: 140px;
-        text-align: center;
-    }
-    a{
-        font-size: 120px;  
-    }
-    .nav__link{
-        font-size: 55px;
-    }
-
-    .pic img{
-        margin-left: auto;
-        margin-right: auto;
-        width: 600px;
-        height: 600px;
-    }
-
-    img{
-        width: 600px;
-        height: 750px;
-    }
-}
-
-/*  16 x 20 inch */
-
-@media (max-width: 3000px) and (max-height: 2400px){
-    h1{
-        font-size: 150px;
-        text-align: center;
-    }
-    .user{
-        text-align: center;
-    }
-    h2{
-        font-size: 100px;
-        text-align: center;
-    }
-    .email{
-        text-align: center;
-    }
-    p{
-        font-size: 110px;
-        text-align: center;
-    }
-    a{
-        font-size: 90px;  
-    }
-    .nav__link{
-        font-size: 55px;
-    }
-
-    .pic img{
-        margin-left: auto;
-        margin-right: auto;
-        width: 600px;
-        height: 600px;
-    }
-
-    img{
-        width: 600px;
-        height: 750px;
-    }
-}
-
-/*  12 x 16 inch */
-
-@media (max-width: 2400px) and (max-height: 1800px){
-    h1{
-        font-size: 100px;
-        text-align: center;
-    }
-    .user{
-        text-align: center;
-    }
-    h2{
-        font-size: 80px;
-        text-align: center;
-    }
-    .email{
-        text-align: center;
-    }
-    p{
-        font-size: 80px;
-        text-align: center;
-    }
-    a{
-        font-size: 70px;  
-    }
-    .nav__link{
-        font-size: 50px;
-    }
-
-    .pic img{
-        margin-left: auto;
-        margin-right: auto;
-        width: 600px;
-        height: 600px;
-    }
-
-    img{
-        width: 600px;
-        height: 750px;
-    }
-}
-
-/*  12 x 12 inch */
-
-@media (max-height: 1800px) and (max-width: 1800px){
-    h1{
-        font-size: 100px;
-        text-align: center;
-    }
-    .user{
-        text-align: center;
-    }
-    h2{
-        font-size: 80px;
-        text-align: center;
-    }
-    .email{
-        text-align: center;
-    }
-    p{
-        font-size: 70px;
-        text-align: center;
-    }
-    a{
-        font-size: 65px;  
-    }
-    .nav__link{
-        font-size: 50px;
-    }
-
-    .pic img{
-        margin-left: auto;
-        margin-right: auto;
-        width: 400px;
-        height: 400px;
-    }
-
-    img{
-        width: 400px;
-        height: 550px;
-    }
-}
-
-/*  11 x 14 inch */
-
-@media (max-width: 2100px) and (max-height: 1650px){
-    h1{
-        font-size: 100px;
-        text-align: center;
-    }
-    .user{
-        text-align: center;
-    }
-    h2{
-        font-size: 80px;
-        text-align: center;
-    }
-    .email{
-        text-align: center;
-    }
-    p{
-        font-size: 80px;
-        text-align: center;
-    }
-    a{
-        font-size: 70px;  
-    }
-    .nav__link{
-        font-size: 45px;
-    }
-
-    .pic img{
-        margin-left: auto;
-        margin-right: auto;
-        width: 450px;
-        height: 450px;
-    }
-
-    img{
-        width: 400px;
-        height: 550px;
-    }
-}
-
-/*  8.5 x 11 inch */
-
-@media (max-width: 1650px) and (max-height: 1275px){
+@media (max-width: 1920px) and (max-height: 1080px){
     h1{
         font-size: 75px;
         text-align: center;
@@ -344,19 +16,17 @@
         text-align: center;
     }
     p{
-        font-size: 60px;
+        font-size: 55px;
         text-align: center;
     }
     a{
-        font-size: 50px;  
+        font-size: 50px;
     }
     .nav__link{
         font-size: 40px;
     }
 
     .pic img{
-        margin-left: auto;
-        margin-right: auto;
         width: 350px;
         height: 350px;
     }
@@ -367,117 +37,12 @@
     }
 }
 
-/*  8 x 10 inch */
 
-@media (max-width: 1500px) and (max-height: 1200px){
+/*  Galaxy S5 */
+
+@media (max-width: 360px) and (max-height: 640px){
     h1{
-        font-size: 75px;
-        text-align: center;
-    }
-    .user{
-        text-align: center;
-    }
-    h2{
-        font-size: 40px;
-        text-align: center;
-    }
-    .email{
-        text-align: center;
-    }
-    p{
-        font-size: 60px;
-        text-align: center;
-    }
-    a{
-        font-size: 50px;  
-    }
-    .nav__link{
-        font-size: 40px;
-    }
-
-    .pic img{
-        margin-left: auto;
-        margin-right: auto;
-        width: 350px;
-        height: 350px;
-    }
-
-    img{
-        width: 300px;
-        height: 350px;
-    }
-}
-
-/*  6 x 6 inch */
-
-@media (max-width: 900px) and (max-height: 900px){
-    h1{
-        font-size: 45px;
-        text-align: center;
-    }
-    .user{
-        text-align: center;
-    }
-    h2{
-        font-size: 40px;
-        text-align: center;
-    }
-    .email{
-        text-align: center;
-    }
-    p{
-        font-size: 30px;
-        text-align: center;
-    }
-    a{
-        font-size: 30px;  
-    }
-    .nav__link{
-        font-size: 35px;
-    }
-    img{
-        width: 150px;
-        height: 200px;
-    }
-}
-
-/*  5 x 7 inch */
-
-@media (max-width: 1050px) and (max-height: 750px){
-    h1{
-        font-size: 45px;
-        text-align: center;
-    }
-    .user{
-        text-align: center;
-    }
-    h2{
-        font-size: 40px;
-        text-align: center;
-    }
-    .email{
-        text-align: center;
-    }
-    p{
-        font-size: 30px;
-        text-align: center;
-    }
-    a{
-        font-size: 30px;  
-    }
-    .nav__link{
-        font-size: 35px;
-    }
-    img{
-        width: 150px;
-        height: 200px;
-    }
-}
-
-/*  4 x 6 inch */
-@media (max-width: 900px) and (max-height: 600px){
-    h1{
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
     }
     .user{
@@ -491,59 +56,66 @@
         text-align: center;
     }
     p{
-        font-size: 20px;
+        font-size: 10px;
         text-align: center;
     }
     a{
-        font-size: 20px;  
+        font-size: 10px;  
+    }
+    .nav{
+        width: 35%;
     }
     .nav__link{
-        font-size: 25px;
+        font-size: 20px;
     }
+    .pic img{
+        width: 50px;
+        height: auto;
+    }
+
     img{
-        width: 150px;
-        height: 150px;
+        width: 50px;
+        height: auto;
     }
 }
 
+/*  iPhone 6/7/8 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Skärmupplösning 
-@media (max-width: 1080px) and (max-height: 1920px){
+@media (max-width: 375px) and (max-height: 667px){
     h1{
+        font-size: 20px;
         text-align: center;
     }
     .user{
         text-align: center;
     }
     h2{
+        font-size: 20px;
         text-align: center;
     }
     .email{
         text-align: center;
     }
     p{
+        font-size: 10px;
         text-align: center;
     }
-}*/
+    a{
+        font-size: 10px;  
+    }
+    .nav{
+        width: 35%;
+    }
+    .nav__link{
+        font-size: 20px;
+    }
+    .pic img{
+        width: 50px;
+        height: auto;
+    }
+
+    img{
+        width: 50px;
+        height: auto;
+    }
+}

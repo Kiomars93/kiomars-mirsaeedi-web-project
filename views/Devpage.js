@@ -15,7 +15,7 @@ export default class extends AbstractView {
         </div>
         <p>My name is Kiomars Mirsaeedi, I am 27 years old, I live in gothenburg city.
         I love to code, training, dance and music aside from programming.</p>
-            <a href="/contact" data-link> View My Contacts</a>.
+            <a href="/contact" data-link> View My Contacts</a>
         </div>
         <style>
          .text {
